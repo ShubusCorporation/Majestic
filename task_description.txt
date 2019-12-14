@@ -1,0 +1,61 @@
+﻿-------------------------------------------------------------------------------------------------------
+The system can store the essence of the contract. The contract has a name and its status.
+Contract Statuses:
+- compiled
+- approved
+
+An employee may:
+- make new contracts. For the institution, you must specify the name.
+- view a list of your previously entered into contracts
+
+The coordinator can:
+- view all contracts
+- transfer the contract from the status drawn up to approved
+
+The administrator can:
+- view all contracts
+- delete any contract
+- make new users and expose them a role (employee, coordinator, administrator)
+- delete users
+- change user passwords
+
+Users should be able to log in using a username / password through a browser.
+To manage the system, at least 1 administrator with login / password - Admin123 / CegthVtufGfhjkm123 # @!
+Web application must be implemented on ASP.NET MVC
+The database must be implemented on SQL Server 2012 (or 2014) Express
+You must provide a sql script for the initial deployment of the database structure with one administrator.
+Sources and compiled application for deployment in IIS should be provided
+
+-------------------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------------
+
+
+В системе можно хранить сущность договора. У договора есть название и его статус.
+Статусы договора:
+- составлен
+- утвержден
+
+Сотрудник может:
+- заводить новые договора. Для заведения необходимо указывать название.
+- просматривать список своих ранее заведенных договоров
+
+Координатор может:
+- просматривать все договора
+- переводить договор из статуса составлен в утвержден
+
+Администратор может:
+- просматривать все договора
+- удалять любой договор
+- заводить новых пользователей и выставлять им роль (сотрудник, координатор, администратор)
+- удалять пользователей
+- менять пароли пользователей
+
+Пользователи должны иметь возможность входить в систему по логин/паролю через браузер.
+Для управления системой должен быть заведен как минимум 1 администратор с логин/паролем - Admin123/CegthVtufGfhjkm123#@!
+Веб-приложение необходимо реализовать на ASP.NET MVC
+БД должна быть реализована на SQL Server 2012 (или 2014) Express
+Необходимо предоставить sql-скрипт для первичного разворачивания структуры БД с одним администратором.
+Должны быть предоставлены исходники и скомпилированное приложение для разворачинваия в IIS
+
